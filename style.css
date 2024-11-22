@@ -1,24 +1,28 @@
-#navbar {
-  background-color: brown;
+body {
+  width: 600px;
 }
 
-.info {
-  background-color: brown;
+nav {
+  background-color: antiquewhite;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 48px;
+  list-style: none;
 }
 
-.image1 {
-  background-color: white;
+a{
+  font-size: 20px;
 }
 
-h1 {
-  color: black;
-  font-size: 200%;
+
+.image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-p {
-  font-size: 150%;
-  color: black;
-}
 
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
